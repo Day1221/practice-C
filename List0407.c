@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+int main(void){
+
+    int no;
+
+    printf("正の整数を入力:");scanf("%d",&no);
+
+    int i=0;
+    while(i<=no)
+        printf("%d ",i++);
+    printf("\n");
+
+    return 0;
+}
